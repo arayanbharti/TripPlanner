@@ -38,6 +38,7 @@ export default function PlaceCardItem({ place }) {
         <h2 className="font-bold text-lg text-white">{place?.placeName}</h2>
         <p className="text-sm text-gray-500">{place.placeDetails}</p>
         <h2 className="mt-2">⏱️ {place.timeToVisit}</h2>
+        <h2 className="mt-2 text-green-500">💵 {place.ticketPricing}</h2>
         {/* <Button className="size-sm">
           <FaMapLocation />
         </Button> */}

@@ -15,6 +15,7 @@ export default function Hero() {
           Get Started
         </Button>
       </Link>
+      <img src="main.jpeg"/>
     </div>
   );
 }
