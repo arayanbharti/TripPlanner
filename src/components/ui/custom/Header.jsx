@@ -64,12 +64,12 @@ export default function Header() {
 
         {user ? (
           <div className="flex items-center gap-3">
-            <a href='/create-trip'>
+            <a href='https://trip-planner-1.vercel.app/create-trip'>
             <Button variant="outline" className="rounded-full">
              + Create Trip
             </Button>
             </a>
-            <a href='/my-trips'>
+            <a href='https://trip-planner-1.vercel.app//my-trips'>
             <Button variant="outline" className="rounded-full">
               My trips
             </Button>
