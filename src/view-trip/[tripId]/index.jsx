@@ -3,7 +3,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "sonner";
-import InfoSection from "../components/InfoSection";
+import InfoSection from "../components/infoSection";
 import Hotels from "../components/Hotels";
 import PlacesToVisit from "../components/placestovisit";
 import Footer from "../components/Footer";
