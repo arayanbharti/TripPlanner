@@ -34,7 +34,7 @@ export default function ViewTrip() {
 
     return (
         <div className="p-10 md:px-20 lg:px-44 xl:px-56 text-white">
-            <InfoSection trip={trip} />
+            <InfoSection trip={trip}/>
             <Hotels trip={trip}/>
             <PlacesToVisit trip={trip}/>
             <Footer/>
